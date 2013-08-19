@@ -1,6 +1,6 @@
 {
-    "name": "detro/phantomjs-jasminexml-example",
-    "description": "A phantomjs / jasminexml Javascript Testing example",
+    "name": "myusernamejeep/test-js-jenkins",
+    "description": "A phantomjs / jasmine Javascript Testing + Report",
     "type": "library",
     "keywords": [
         "javascript",
@@ -8,19 +8,19 @@
         "phantomjs",
         "testing"
     ],
-    "homepage": "https://github.com/detro/phantomjs-jasminexml-example#readme",
+    "homepage": "https://github.com/myusernamejeep/test-js-jenkins",
     "authors": [
         {
-            "name": "Ivan De Marino",
-            "email": "ivan.de.marino@gmail.com",
+            "name": "Jumphol",
+            "email": "myusernamejeep@gmail.com",
             "role": "lead"
         }
     ],
     "support": {
-        "issues": "https://github.com/detro/phantomjs-jasminexml-example/issues"
+        "issues": "https://github.com/myusernamejeep/test-js-jenkins/issues"
     },
     "bin": [
-        "test/phantomjs_jasminexml_runner.js"
+ 		"test/lib/jasmine-reporters/load_reporters.js"
     ],
     "config": {
         "bin-dir": "bin"
