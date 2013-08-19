@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Test TV Volume" errors="0" tests="3" failures="0" time="0.007" timestamp="2013-08-19T15:06:24">
+  <testcase classname="Test TV Volume" name="try changing the volume while off" time="0.003"></testcase>
+  <testcase classname="Test TV Volume" name="check volume while off" time="0.002"></testcase>
+  <testcase classname="Test TV Volume" name="turn the tv on, than change the volume" time="0.002"></testcase>
+</testsuite>
+</testsuites>
