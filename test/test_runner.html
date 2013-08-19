@@ -13,22 +13,14 @@
   <!-- include spec files here... -->
   <script type="text/javascript" src="test_spec.js"></script>
 
-  
-  <script type="text/javascript" src="../lib/jasmine-reporters/src/jasmine.console_reporter.js"></script>
-  <script type="text/javascript" src="../lib/jasmine-reporters/src/jasmine.junit_reporter.js"></script>
- 
-  <script type="text/javascript">
-    if (/PhantomJS/.test(navigator.userAgent)) {
-      jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
-      jasmine.getEnv().addReporter(new jasmine.JUnitXmlReporter('target/test-reports/'));
-      jasmine.getEnv().addReporter(new jasmine.ConsoleReporter());
-    } else {
-      jasmine.getEnv().addReporter(new jasmine.HtmlReporter());
-    }
-	jasmine.getEnv().addReporter(new jasmine.PhantomJSReporter());
-    jasmine.getEnv().execute();
-  </script>
- 
- 
+</head>
+<body>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+  jasmine.getEnv().addReporter(new jasmine.PhantomJSReporter());
+  jasmine.getEnv().execute();
+</script>
+
 </body>
 </html>
